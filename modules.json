@@ -5,7 +5,8 @@
     "platformVersion": "2.13.1",
     "description": "Provides gift card pricing structure.",
     "groups": [
-      "pricing"
+      "pricing",
+      "SVM"
     ],
     "owners": [
       "D.Shepherd"
