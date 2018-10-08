@@ -31,7 +31,7 @@ angular.module(moduleTemplateName, [])
         //Register module in main menu
         var menuItem = {
             path: 'browse/SVM.Ecommerce.Pricing',
-            icon: 'fa fa-cube',
+            icon: 'fa fa-gbp',
             title: 'SVM Pricing',
             priority: 100,
             action: function () { $state.go('workspace.SVM.Ecommerce.Pricing') },

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <module>
     <id>SVM.Ecommerce.Pricing</id>
-    <version>1.0.1</version>
+    <version>0.0.1</version>
     <platformVersion>2.13.9</platformVersion>
 
     <title>SVM Pricing module</title>
@@ -9,7 +9,10 @@
     <authors>
         <author>dshepherd</author>
     </authors>
-
+    <owners>
+        <owner>SVM Global</owner>
+    </owners>
+    <iconUrl>https://github.com/VirtoCommerce/vc-module-pricing/raw/master/VirtoCommerce.PricingModule.Web/Content/logo.png</iconUrl>
     <assemblyFile>SVM.Ecommerce.Pricing.dll</assemblyFile>
     <moduleType>SVM.Ecommerce.Pricing.Module, SVM.Ecommerce.Pricing</moduleType>
 
@@ -19,65 +22,26 @@
     <scripts>
         <directory virtualPath="$/Scripts" searchPattern="*.js" searchSubdirectories="true" />
     </scripts>
-
+  
     <settings>
-        <group name="General">
+        <group name="Pricing|General">
             <setting>
-                <name>SVM.Ecommerce.Pricing.General.String</name>
+                <name>Pricing.ExportImport.Description</name>
                 <valueType>string</valueType>
-                <defaultValue>qwerty</defaultValue>
-                <title>String</title>
-                <description>A text setting</description>
-            </setting>
-            <setting>
-                <name>SVM.Ecommerce.Pricing.General.Password</name>
-                <valueType>secureString</valueType>
-                <defaultValue>qwerty</defaultValue>
-                <title>Password</title>
-                <description>A secure text setting</description>
-            </setting>
-            <setting>
-                <name>SVM.Ecommerce.Pricing.General.Integer</name>
-                <valueType>integer</valueType>
-                <defaultValue>123</defaultValue>
-                <title>Integer</title>
-                <description>An integer setting</description>
-            </setting>
-            <setting>
-                <name>SVM.Ecommerce.Pricing.General.Decimal</name>
-                <valueType>decimal</valueType>
-                <defaultValue>123.45</defaultValue>
-                <title>Decimal</title>
-                <description>A decimal setting</description>
-            </setting>
-        </group>
-        <group name="Advanced">
-            <setting>
-                <name>SVM.Ecommerce.Pricing.Advanced.Boolean1</name>
-                <valueType>boolean</valueType>
-                <defaultValue>true</defaultValue>
-                <title>Boolean1</title>
-                <description>A boolean setting</description>
-            </setting>
-            <setting>
-                <name>SVM.Ecommerce.Pricing.Advanced.Boolean2</name>
-                <valueType>boolean</valueType>
-                <defaultValue>false</defaultValue>
-                <title>Boolean2</title>
-                <description>A boolean setting</description>
-            </setting>
-            <setting>
-                <name>SVM.Ecommerce.Pricing.Advanced.Select</name>
-                <valueType>string</valueType>
-                <allowedValues>
-                    <value>qwerty</value>
-                    <value>asdfgh</value>
-                    <value>zxcvb</value>
-                </allowedValues>
-                <defaultValue>asdfgh</defaultValue>
-                <title>Select</title>
-                <description>Select one of the allowed values</description>
+                <defaultValue>Export/Import price lists, assignments and prices</defaultValue>
+                <title>Export/Import description</title>
+                <description>Module description in platform export/import wizard</description>
             </setting>
         </group>
     </settings>
+
+    <permissions>
+        <group name="Pricing">
+            <permission id="pricing:access" name="Open pricing menu" description=""/>
+            <permission id="pricing:create" name="Create pricing data" description=""/>
+            <permission id="pricing:read" name="View pricing data" description=""/>
+            <permission id="pricing:update" name="Update pricing data" description=""/>
+            <permission id="pricing:delete" name="Delete pricing data" description=""/>
+        </group>
+    </permissions>
 </module>
