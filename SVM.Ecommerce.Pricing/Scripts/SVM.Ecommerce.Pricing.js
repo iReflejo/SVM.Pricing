@@ -15,7 +15,7 @@ angular.module(moduleTemplateName, [])
                 controller: [
                     '$scope', 'platformWebApp.bladeNavigationService', function ($scope, bladeNavigationService) {
                         var newBlade = {
-                            id: 'blade1',
+                            id: 'SVM.Ecommerce.Pricing',
                             controller: 'SVM.Ecommerce.Pricing.blade1Controller',
                             template: 'Modules/$(SVM.Ecommerce.Pricing)/Scripts/blades/helloWorld_blade1.tpl.html',
                             isClosingDisabled: true
