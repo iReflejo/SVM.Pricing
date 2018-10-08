@@ -1,7 +1,7 @@
 [
   {
-    "projectUrl": "",
-    "packageUrl": "https://github.com/iReflejo/svmpricing/releases/download/v0.4.0/VirtoCommerce.ProductRecommendations_0.4.0.zip",
+    "projectUrl": "https://github.com/iReflejo/SVM.Pricing/",
+    "packageUrl": "https://github.com/iReflejo/SVM.Pricing/releases/download/0.0.1/SVM.Ecommerce.Pricing_0.0.1.zip",
     "platformVersion": "2.13.1",
     "description": "Provides gift card pricing structure.",
     "groups": [
