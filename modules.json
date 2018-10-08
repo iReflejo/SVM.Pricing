@@ -13,7 +13,7 @@
     "iconUrl": "https://github.com/VirtoCommerce/vc-module-product-recommendations/raw/master/VirtoCommerce.ProductRecommendationsModule.Web/Content/logo.png",
     "id": "SVM.Ecommerce.Pricing",
     "title": "SVM Pricing module (preview)",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "authors": [
       "Danny Shepherd"
     ],
