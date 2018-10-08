@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <module>
     <id>SVM.Ecommerce.Pricing</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <platformVersion>2.13.9</platformVersion>
 
     <title>SVM Pricing module</title>
