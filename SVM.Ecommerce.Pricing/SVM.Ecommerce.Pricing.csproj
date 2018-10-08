@@ -108,7 +108,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="module.manifest" />
+    <Content Include="module.manifest">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\css\SVM.Ecommerce.Pricing.css" />
     <Content Include="Scripts\blades\helloWorld_blade1.js" />
     <Content Include="Scripts\blades\helloWorld_blade1.tpl.html" />
